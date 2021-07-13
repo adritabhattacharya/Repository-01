@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+body {
+  background-image: url("assets/backgrnd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome{
+    background-color: white;
+  height: 410px;
+  width: 280px;
+  margin-left: 5%;
+  margin-top: 12%;
+  border-radius: 2px;
+}
+.title {
+    padding: 10px;
+    margin: 0;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+.field{
+  height:64px;
+  font-size: 12px;
+  padding-left:20px;
+  transition: all 0s ease;
+  
+}
+.field:hover{
+  background-color: #9e9e9e;
+
+}
+
+.field:hover > * {
+  background-color: #9e9e9e;
+}
+.field:hover > * > * {
+  background-color: #9e9e9e;
+}
+input[type="text"] {
+  /*order: -1;*/
+  transition: transform 0.3s ease-in;
+  /*transform: translateY(10px);*/
+  border: none;
+  border-bottom: 2px solid black;
+  width: 230px;
+  font-size: 10px;
+  z-index: 1;
+}
+input[type="text"]:focus {
+  /*transform: translate3d(54px, -20px, 0);*/
+  outline: none;
+  
+}
+input[type="password"] {
+  /*order: -1;*/
+  transition: transform 0.3s ease-in;
+  /*transform: translateY(10px);*/
+  border: none;
+  border-bottom: 2px solid black;
+  width: 230px;
+  font-size: 10px;
+  z-index: 1;
+}
+input[type="password"]:focus {
+  /*transform: translate3d(54px, -20px, 0);*/
+  outline: none;
+}
+input[type="password"]:hover {
+  background-color: #9e9e9e;
+}
+.eye{
+  background-color: white;
+  border:none;
+
+  color: black;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left:0;
+  margin-right: 0;
+}
+.fyp{
+  margin-right: 0;
+  font-size: 10px;
+  font-weight: 100;
+  float: right;
+  color: #000000;
+}
+.forgot_passw{
+  padding-right: 20px;
+  padding-top: 5px;
+}
+.terms{
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.submit-button{
+  background-color: #000000; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 21px;
+  width: 80%;
+  font-size: 16px;
+  
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  align-self: center;
+  z-index: 0;
+  font-size: 15px;
+  margin-top:20px;
+}
+
+.center{
+  text-align: center;
+  align-content: center;
+}
+.social-med{
+  font-size: 12px;
+  font-weight: 200;
+  padding-top: 35px;
+  width:80%;
+text-align: center;
+display: inline-block;
+
+  
+}
+.icons{
+  font-size: 20px;
+  
+}
+hr{
+  border: solid 1000px;
+  padding:0;
+  width: 100%;               
+  background-color:#000000;
+  height: 2000px;
+}
+
+.icon{
+  padding:10px;
+  color: #000000;
+  background-color: white;
+  border:none;
+}
+.signup{
+  z-index: 5;
+  align-content: center;
+  background-color: white;
+  color: black;
+  border: none;
+  border-top: #9e9e9e 2px solid;
+  width: 100%;
+  margin-top:15px;
+  padding-top: 5px;
+  font-weight: 700;
+}
+.container i {
+  margin-left: -30px;
+  cursor:pointer;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+@media only screen and (min-width: 120px) and (max-width: 1300px) {
+  body {
+    background-size: cover;
+    height: 628px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 745px) {
+  .welcome {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <script src="welcome.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Welcome Page</title>
+</head>
+
+<body>
+    <div class="welcome">
+        <div class="title"> Welcome </div>
+        <form>
+            <div class="field">
+                <b>User Name:</b><br>
+                <input type="text" class="textbox">
+            </div>
+            <div class="field">
+                <b>Password:</b><br>
+                <div class="section">
+                    <input type="password" name="password" id="password" class="textbox">
+                    <i class="bi bi-eye-slash" id="togglePassword"></i>
+                </div>
+
+                <div class="forgot_passw">
+                    <a href=""><span class="fyp">Forgot your password?</span></a>
+                </div>
+            </div>
+            <div class="terms">
+                <input type="checkbox" name="rem" class="rem"><span class="rem"></span>
+                <label for="rem">Remember</label>
+            </div>
+            <div class="center">
+                <input type="submit" class="submit-button" value="Login"><br>
+                <div class="social-med">
+                    Login with:
+
+                    <div class="icons">
+                        <button class="icon"><i class="fa fa-facebook"></i></button>
+                        <button class="icon"><i class="fa fa-twitter"></i></button>
+                        <button class="icon"><i class="fa fa-apple"></i></button>
+                        <button class="icon"><i class="fa fa-google"></i></button>
+                    </div>
+                </div>
+
+
+
+                <button class="signup">Signup</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+body {
+  background-image: url("assets/backgrnd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+.verify{
+    background-color: white;
+  height: 410px;
+  width: 370px;
+  margin-left: 5%;
+  margin-top: 12%;
+  border-radius: 8px;
+  text-align: center;
+  padding-left:20px;
+  padding-right: 20px;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 21px;
+}
+
+.details{
+    font-size: 12px;
+    padding:20px;
+}
+.email{
+    font-size: 14px;
+}
+
+input[type="text"]{
+      width: 35px;
+      border: none;
+      border-bottom: black 1px solid;
+     text-align: center;
+     margin-top:30px;
+      margin-bottom: 30px;
+      font-size: 21px;
+      padding:5px;
+  }
+  input[type="text"]:focus{
+    border: none;
+    border-bottom: black 1px solid;
+    font-size: 21px;
+    outline: none;
+  }
+  .submit-button{
+    background-color:gray; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    width: 65%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    pointer-events: none;
+    
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    align-self: center;
+    z-index: 0;
+    font-size: 15px;
+  }
+  .dec{
+      font-size: 12px;
+  }
+  .red{
+      color: red;
+      text-decoration: none;
+  }
+
+  @media only screen and (min-width: 120px) and (max-width: 1300px) {
+    body {
+      background-size: cover;
+      height: 620px;
+    }
+  }
+  
+  @media only screen and (min-width: 300px) and (max-width: 745px) {
+    .verify {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
